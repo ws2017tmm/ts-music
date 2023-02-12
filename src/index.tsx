@@ -4,7 +4,7 @@
  * @Autor: StevenWu
  * @Date: 2023-02-10 11:41:09
  * @LastEditors: StevenWu
- * @LastEditTime: 2023-02-10 19:11:28
+ * @LastEditTime: 2023-02-11 16:23:29
  */
 
 import React from 'react'
@@ -17,6 +17,8 @@ import './assets/css/index.less'
 
 import store from './store'
 import App from '@/App'
+
+import './service/modules/recommend'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
