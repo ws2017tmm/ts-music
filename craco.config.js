@@ -4,7 +4,7 @@
  * @Autor: StevenWu
  * @Date: 2023-02-10 12:11:27
  * @LastEditors: StevenWu
- * @LastEditTime: 2023-02-10 15:55:27
+ * @LastEditTime: 2023-02-12 17:24:13
  */
 const path = require('path')
 const resolve = (dir) => path.resolve(__dirname, dir)
@@ -17,5 +17,16 @@ module.exports = {
       '@': resolve('src')
     }
   },
-  plugins: [{ plugin: CracoLessPlugin }]
+  plugins: [
+    {
+      plugin: CracoLessPlugin,
+      options: {
+        lessLoaderOptions: {
+          lessOptions: {
+            javascriptEnabled: true
+          }
+        }
+      }
+    }
+  ]
 }
