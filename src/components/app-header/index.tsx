@@ -4,7 +4,7 @@
  * @Autor: StevenWu
  * @Date: 2023-02-12 15:10:02
  * @LastEditors: StevenWu
- * @LastEditTime: 2023-02-12 17:50:05
+ * @LastEditTime: 2023-02-12 19:47:39
  */
 import React, { memo } from 'react'
 import type { FC, ReactNode } from 'react'
@@ -12,7 +12,7 @@ import { NavLink } from 'react-router-dom'
 import { HeaderLeft, HeaderRight, HeaderWrapper } from './style'
 import { Input } from 'antd'
 import { SearchOutlined } from '@ant-design/icons'
-import headerTitles from '@/assets/data/header_titles.json'
+import { headerTitles } from '@/assets/data/local_data'
 
 interface IProps {
   children?: ReactNode

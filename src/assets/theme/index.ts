@@ -4,11 +4,11 @@
  * @Autor: StevenWu
  * @Date: 2023-02-12 15:51:03
  * @LastEditors: StevenWu
- * @LastEditTime: 2023-02-12 16:02:19
+ * @LastEditTime: 2023-02-12 20:27:33
  */
 const theme = {
   color: {
-    primary: '#c2c2c2'
+    primary: '#C20C0C'
   },
   mixin: {
     wrapv1: `
