@@ -4,7 +4,7 @@
  * @Autor: StevenWu
  * @Date: 2023-02-10 19:00:48
  * @LastEditors: StevenWu
- * @LastEditTime: 2023-02-10 21:10:12
+ * @LastEditTime: 2023-02-12 21:01:53
  */
 import { configureStore } from '@reduxjs/toolkit'
 import {
@@ -14,10 +14,12 @@ import {
   useSelector
 } from 'react-redux'
 import counterReducer from './modules/counter'
+import recommendReducer from '@/views/discover/c-views/recommend/store/recommend'
 
 const store = configureStore({
   reducer: {
-    counter: counterReducer
+    counter: counterReducer,
+    recommend: recommendReducer
   }
 })
 
