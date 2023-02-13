@@ -4,7 +4,7 @@
  * @Autor: StevenWu
  * @Date: 2023-02-10 11:41:09
  * @LastEditors: StevenWu
- * @LastEditTime: 2023-02-12 15:55:58
+ * @LastEditTime: 2023-02-13 09:23:53
  */
 
 import React from 'react'
@@ -19,8 +19,6 @@ import theme from './assets/theme'
 
 import store from './store'
 import App from '@/App'
-
-import './service/modules/recommend'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
