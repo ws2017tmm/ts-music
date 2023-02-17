@@ -4,7 +4,7 @@
  * @Autor: StevenWu
  * @Date: 2023-02-13 09:05:04
  * @LastEditors: StevenWu
- * @LastEditTime: 2023-02-17 13:44:58
+ * @LastEditTime: 2023-02-17 15:47:52
  */
 import wsRequest from '@/service'
 
@@ -34,6 +34,15 @@ export function getPlaylistDetail(id: number) {
     url: '/playlist/detail',
     params: {
       id
+    }
+  })
+}
+
+export function getArtistList(limit = 30) {
+  return wsRequest.get({
+    url: '/artist/list',
+    params: {
+      limit
     }
   })
 }
